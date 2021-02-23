@@ -73,7 +73,7 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md">
               <ToggleSwitch />
             </a>
           </li>
