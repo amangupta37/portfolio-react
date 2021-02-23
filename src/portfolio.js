@@ -9,28 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Aman Gupta",
+  title: "Hi all, I'm Aman Gupta",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate MERN Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1P_9Weg8Oq83In5qH0qNdGnk9zawi0UE6/view",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/amangupta37",
+  linkedin: "https://www.linkedin.com/in/aman-gupta-649168143/",
+  gmail: "amangupta6121998@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  medium: "https://amangupta6121998.medium.com/",
+  //stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  instagram: 'https://www.instagram.com/amangupta4909/',
+  twitter: 'https://twitter.com/Amangup01559071',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -151,34 +151,35 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Technical Writter",
+      company: "The Stratup",
+      companylogo: require("./assets/images/thestartup.png"),
+      date: "November 2020 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Writing technical blogs .",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Programming Languages",
+        "Devops",
+        "Development Tools",
+        "Tutorials for building Apps"
       ]
     },
+    
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Open Source Contributer at GSSC'21",
+      company: "GSSC 2021",
+      companylogo: require("./assets/images/gssc.jpeg"),
+      date: "Feb 2021 – Present",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Selected as a participant at GSSC 2021 for Open Source Projects"
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
+      role: "Web developer",
+      company: "IEEE-iSSSC 2020",
+      companylogo: require("./assets/images/ieeeks.png"),
+      date: "September 2020 - December 2020",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "Developed Responsive website for the IEEE  Inetrnational Conference 2020 ."
     }
   ]
 };
@@ -298,16 +299,16 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        "https://medium.com/swlh/asynchronous-concept-in-javascript-10dce818281d?source=friends_link&sk=23d2c6fb0e7eb43f8a81aee24b6c47b9",
+      title: "Asynchronous Concept in JS",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Understanding the Asynchronous concept in JS by relating it to real life."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://link.medium.com/MK6TMJkbYbb",
+      title: "Working of Git: Behind The Scene",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Understanding how a single commits are stored inside the .git folder.."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -349,14 +350,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "+91 8292652759",
+  email_address: "amangupta6121998@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "Amangup01559071", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
