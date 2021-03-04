@@ -4,8 +4,6 @@
 
 ## <a href="https://portfolio-react-alpha.vercel.app/" target="_blank">LIVE DEMO</a>
 
-## Description
-This is a ReactJS based personal resume website template for participants of The 6 Figure JavaScript ReactJS Challenge by Clever 
 
 
 #### PROCEDURE:
